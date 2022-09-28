@@ -1,0 +1,58 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Floor {
+  id      Int    @id @default(autoincrement())
+  floorNo Int    @unique
+  Room    Room[]
+}
+
+model Room {
+  id         Int         @id @unique
+  floorId    Int
+  Floor      Floor       @relation(fields: [floorId], references: [id])
+  department Department?
+}
+
+model Department {
+  id      Int       @id @default(autoincrement())
+  name    String    @unique
+  roomId  Int       @unique
+  Room    Room      @relation(fields: [roomId], references: [id])
+  Workers Workers[]
+}
+
+model Workers {
+  id           Int        @id @default(autoincrement())
+  fullname     String
+  email        String     @unique
+  password     String     @db.VarChar(255)
+  departmentId Int
+  isAdmin      String     @default("false")
+  phone        Int?
+  status       String     @default("inActive")
+  Department   Department @relation(fields: [departmentId], references: [id])
+}
+
+model Guests {
+  idNo           Int
+  idType         String?
+  fullname       String?
+  deptVisited    String?
+  roomNo         Int
+  floorNo        Int
+  date           String   @db.VarChar(50)
+  arrival        DateTime
+  departure      DateTime
+  isAttended     String?  @default("No")
+  isAttendedTime DateTime
+  phone          Int?
+  id             Int      @id @default(autoincrement())
+  isDeparture    String?  @default("No")
+}
