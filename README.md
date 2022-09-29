@@ -108,7 +108,7 @@ Guests Routes
 | GET  | /deptNames  |for getting all data from Department table;|
 | PUT  | /attendGuest/:id|for updating guest if isAttended|
 | PUT  | /notAttendGuest/:id |for updating guest if isNotAttended|
-| PUT  | //idGuests/:id |for updating guest departure time|
+| PUT  | /idGuests/:id |for updating guest departure time|
 
 
 ### Frontend
