@@ -3,7 +3,7 @@
 # Description
 
 ### Project origin
-Gate_IN_System is a full-stack project which i performed as one of the task given by my industrial supervisor at my Industrial Practical Training serving time at Amatics Technologies Company ltd.
+Gate_IN_System is a full-stack project which i performed as one of the project given by my senior supervisors at Amatics Technologies Company ltd.
 
 ### What it can do
 Gate_IN_System is a huge project consisting of Three different system users which are company gate-worker, department-workers and company manager who is the system administrator.
