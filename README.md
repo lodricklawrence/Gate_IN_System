@@ -1,5 +1,12 @@
 # Gate_IN_System
-
+## Table of Contents
+- [Description](#description)
+- [Technology Used](#technology-used)
+- [Challenges and Future Adding Features](#challenges-and-future-adding-features)
+- [Installation Guide](#installation-guide)
+- [How to Use the Project](#how-to-use-the-project)
+- [Project End-points](#project-end-points)
+- [Acknowledgements](#acknowledgements)
 # Description
 
 ### Project origin
