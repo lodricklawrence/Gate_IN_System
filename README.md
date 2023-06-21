@@ -2,7 +2,6 @@
 ## Table of Contents
 - [Description](#description)
 - [Technology Used](#technology-used)
-- [Challenges and Future Adding Features](#challenges-and-future-adding-features)
 - [Installation Guide](#installation-guide)
 - [How to Use the Project](#how-to-use-the-project)
 - [Project End-points](#project-end-points)
@@ -10,7 +9,7 @@
 # Description
 
 ### Project origin
-Gate_IN_System is a full-stack project which i performed as one of the project given by my senior supervisors at Amatics Technologies Company ltd.
+Gate_IN_System is a full-stack project which i performed as one of the project given by my senior supervisors
 
 ### What it can do
 Gate_IN_System is a huge project consisting of Three different system users which are company gate-worker, department-workers and company manager who is the system administrator.
@@ -35,16 +34,7 @@ The Company manager(system-administrator) performs the following.
 
 
 ### Technology used
-In this project for frontend part i used React.JS and Chakra-UI for styling rendered react components at the browser. I used React.js because it has enable a developer to embedd
-html elements inside a javascript file(JSX), So this has made me to save time when developing this system. Also React.JS contains Virtual DOM this helps in rendering components easily 
-even when there are changes that have occured within the DOM tree.
-
-In this project for backend part i used Node.JS with Express.js. Also i used prisma ORM for performing Creation, Reading, Updation and Deletion of Workers data in Workers table from database.
-
-### Challenges and future adding features
-One of the challenges faced in this project is implementation of React.JS CSS library called Chakra.UI in frontend part as i was new to it and this it was my first project using Chakra.UI in React.JS files.
-
-One of the features that i will add at this project in the feature is Google authenitication.
+React.JS and Chakra-UI, Node.JS with Express.js, prisma ORM.
 
 # Installation guide
 1. Install Node.js v16.14.2 in your local computer [Node Js](https://nodejs.org/en/).
